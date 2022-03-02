@@ -1,0 +1,36 @@
+
+*{
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+}
+
+.head-address{
+    font-size: 14px;
+}
+
+.head-mobile{
+    font-size: 12px;
+}
+.head-time{
+    font-size: 13px;
+}
+
+footer{
+    margin-top: 10px;
+    font-size: 13px;
+    text-align: center;
+}
+
+.details{
+    font-size: 12px;
+    text-align: left;
+}
+
+#print-btn{
+    display: none;
+}
+
+
+body.receipt .sheet { width: 58mm; height: 100mm } /* change height as you like */
+@media print { body.receipt { width: 58mm } } /* this line is needed for fixing Chrome's bug */
